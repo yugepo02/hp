@@ -7,7 +7,32 @@
         <h1>welcome</h1>
         <p>ここ</p>
         <p>最近カメムシが突進してきてむかつく</p>
-        <h1>IMYMEMINE</h1>
+        <h2>IMYMEMINE</h2>
         <p>私</p>
+        
+        <h3>クリックゲーム</h3>
+        <p>スコア: <span id="score">0</span></p>
+        <button id="clickButton">クリックして得点</button>
+
+        <script>
+            // 初期スコア
+            let score = 0;
+        
+            // スコアを表示する要素を取得
+            const scoreElement = document.getElementById("score");
+        
+            // クリックボタンを取得
+            const clickButton = document.getElementById("clickButton");
+        
+            // クリック時の処理
+            clickButton.addEventListener("click", () => {
+              // スコアを増やす
+              score += 1;
+        
+              // スコアを表示
+              scoreElement.textContent = score;
+        
+            });
+          </script>
     </body>
 </html>
