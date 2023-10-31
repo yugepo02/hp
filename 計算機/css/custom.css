@@ -1,0 +1,23 @@
+/* CSS */
+
+html, body{
+	width: 100%; height: 100%;
+	margin: 0px; padding: 0px;
+	background-color: floralwhite;
+}
+h1{
+	text-align: center;
+}
+#my_inpt{
+	margin-right: 300px;
+}
+#my_btn{
+	text-align: center;
+}
+#my_tax{
+	text-align: center;
+}
+#my_total{
+	
+}
+
